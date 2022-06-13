@@ -111,7 +111,9 @@ h1 {
   background-color: #5887bc; }
 
 .row {
-  row-gap: 10px; }
+  row-gap: 10px;
+padding-left: 10px;
+padding-right: 10px; }
 
 .transformacion {
   width: 200px;
@@ -196,7 +198,7 @@ section {
   border-color: #bda94d; }
 
 #nosotros a span {
-  border-color: #5887bc; }
+  border-color: green; }
 
 #inscipcion a span {
   border-color: #00a2b7; }
@@ -210,7 +212,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eaf5ef; }
+  background-color: black; }
 
 hr {
   display: block;
@@ -254,7 +256,8 @@ nav {
 
 ul,
 li {
-  list-style: outside none none; }
+  list-style: outside none none;
+  padding-left: 0rem; }
 
 ul.nav-items {
   clear: both;
@@ -269,7 +272,11 @@ ul.nav-items {
     height: 3em;
     line-height: 3em;
     margin: 0 1.3em;
-    text-decoration: inherit; }
+    text-decoration: inherit;
+    text-align: center; }
+    ul.nav-items a span {
+      font-weight: bold;
+      display: block; }
 
 ul.nav-items li a:hover {
   background-color: #30AADD; }
@@ -278,7 +285,7 @@ ul.nav-items li:first-child a {
   border-top: 2px solid transparent; }
 
 ul.nav-items li a span {
-  border-left: 3px solid;
+  border-left: 6px solid;
   height: 3.2em;
   padding: 0.4em 0.5em; }
 
@@ -415,4 +422,4 @@ h2 {
   .flex-courses p,
   .flex-courses div {
     text-align: center;
-    padding: 10px; } }
+    padding: 2px; } }
